@@ -1,8 +1,10 @@
 $light-blue: #00AAE2 !global;
 $blue: #0A70CF !global;
 $dark-blue: #022542 !global;
+$green: #7ED221 !global;
+
 $primary: $light-blue !global;
-$secondary: $blue !global;
+$secondary: $green !global;
 $tertiary: $dark-blue !global;
 
 @import 'vendor/0-dir';
@@ -91,13 +93,6 @@ img {
 		margin: 0 auto;
 		display: block;
 	}
-}
-
-.u-round-img {
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	border-radius: 50%;
 }
 
 .u-centered {
