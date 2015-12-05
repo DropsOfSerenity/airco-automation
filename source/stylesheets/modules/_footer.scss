@@ -1,0 +1,81 @@
+footer {
+	color: #fff;
+	text-align: center;
+	font-weight: 300;
+	font-size: 16px;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li {
+			display: block;
+			margin: 0;
+			a {
+				display: block;
+				padding: 0 16px;
+				color: #fff;
+				&:hover, &:focus, &:active {
+					color: rgba(250,250,250,0.9);
+					font-style: none;
+				}
+				.fa {
+					margin-right: 8px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
+	img {
+		width: 26px; 
+		height: 26px;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.social {
+		background-color: $primary;
+		padding: 45px 0;
+		@media (min-width: 720px) {
+			ul li {
+				display: inline-block;
+			}
+		}
+	}
+	.main {
+		background-color: $tertiary;
+		padding: 60px 0;
+		@media (min-width: 990px) {
+			ul li {
+				display: inline-block;
+			}
+		}
+		span {
+			margin: 45px 0 0 0;
+			display: block;
+		}
+	}
+}
+
+// ACTIVE CLASSES 
+
+body.about footer .main ul li:nth-of-type(1) a {
+  font-weight: bold;
+}
+body.services footer .main ul li:nth-of-type(2) a {
+  font-weight: bold;
+}
+body.sustainability footer .main ul li:nth-of-type(3) a {
+  font-weight: bold;
+}
+body.safety footer .main ul li:nth-of-type(4) a {
+  font-weight: bold;
+}
+body.projects footer .main ul li:nth-of-type(5) a {
+  font-weight: bold;
+}
+body.careers footer .main ul li:nth-of-type(6) a {
+  font-weight: bold;
+}
+
+body.contact footer .main ul li:nth-of-type(7) a {
+  font-weight: bold;
+}

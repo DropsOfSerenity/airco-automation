@@ -1,0 +1,26 @@
+.u-hero.home {
+  background: url('../images/hero.png') no-repeat center center fixed; 
+}
+
+.l-splash {
+  h2 {
+    color: $primary;
+    margin: 0 0 15px 0;
+  }
+}
+
+.l-body-content {
+  padding: 45px 0;
+  h2 {
+    color: $primary;
+    text-align: center;
+    margin: 0 0 15px 0;
+  }
+  p {
+    max-width: 720px;
+    margin: 0 auto 15px auto;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}

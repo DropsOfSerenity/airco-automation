@@ -1,0 +1,21 @@
+.u-hero.services {
+  background: url('../images/hero.png') no-repeat center center fixed; 
+}
+
+.l-services-body {
+	padding: 35px 0;
+	text-align: center;
+	h2 {
+		color: $primary;
+		margin-bottom: 35px;
+	}
+	img {
+		border-radius: 50%;
+		margin:0 auto 20px auto;
+		max-width: 160px;
+	}
+	h5 {
+		margin: 0 0 45px 0;
+		color: #333;
+	}
+}
