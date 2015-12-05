@@ -102,6 +102,49 @@ img {
 	width: 100%;
 }
 
+.u-cta {
+  position: relative;
+  overflow: hidden;
+  background: url('../images/hero.png');
+  padding: 15px 0;
+  text-align: center;
+  h2 {
+    color: $secondary;
+  }
+  p {
+    color: #fff;
+    max-width: 640px;
+    margin: 0 auto 15px auto;
+  }
+  @media (min-width:680px) {
+    padding: 45px 0;
+  }
+}
+
+.u-hero {
+	text-align:center;
+	padding: 45px 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  h1 {
+    position: relative;
+    z-index: 3;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+  }
+	@media (min-width:680px) {
+		padding: 100px 0;
+		h1 {
+			font-size: 55px;
+		}		
+	}
+}
+
 .u-text-center {
 	text-align: center;
 }
@@ -114,7 +157,7 @@ img {
 	width: 100%;
 	display: block;
 	background-color: #000;
-	opacity: 0.2;
+	opacity: 0.4;
 	&.green {
 		background-color: $secondary;
 		opacity: 0.4;
@@ -125,12 +168,28 @@ img {
 	}
 }
 
+.u-blue-title {
+	text-align: center;
+	margin: 0 auto 15px auto;
+	color: $primary;
+}
+
 .u-forground {
 	position: relative;
 	z-index: 2;
 }
 .u-grey-bg {
 	background-color: #f5f5f5;
+}
+
+.u-quote-section {
+  position: relative;
+  overflow: hidden;
+  background: url('../images/hero.png');
+  padding: 15px 0;
+  @media (min-width:680px) {
+    padding: 45px 0;
+  }
 }
 
 .u-quote {
