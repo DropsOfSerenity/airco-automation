@@ -41,7 +41,7 @@ footer {
 		}
 	}
 	.main {
-		background-color: $tertiary;
+		background-color: #222;
 		padding: 60px 0;
 		@media (min-width: 990px) {
 			ul li {
@@ -50,6 +50,9 @@ footer {
 		}
 		span {
 			margin: 45px 0 0 0;
+			color: rgba(250,250,250,0.3);
+			font-family: "Roboto",sans-serif;
+			font-size: 12px;
 			display: block;
 		}
 	}
