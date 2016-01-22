@@ -5,14 +5,18 @@
 .l-services-body {
 	padding: 35px 0;
 	text-align: center;
+	.col-xs-12 {
+		margin-bottom: 25px;
+	}
 	h2 {
 		color: $primary;
-		margin-bottom: 35px;
+	}
+	h4 {
+		margin-bottom: 60px;
 	}
 	img {
-		border-radius: 50%;
 		margin:0 auto 20px auto;
-		max-width: 160px;
+		max-width: 128px;
 	}
 	h5 {
 		margin: 0 0 45px 0;
