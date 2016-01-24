@@ -5,21 +5,17 @@ nav {
   width: 100%;
   height: 50px;
   z-index: 9999;
-  background-color: $tertiary;
+  background-color: #fff;
   box-shadow:0 2px 6px rgba(0,0,0,0.1);
   .container {
     position: relative;
   }
   .site-id {
-    width: auto;
-    height: 28px;
-    transition: all 0.2s ease-out;
-    color: $primary;
-    font-size: 16px;
-    line-height: 50px;
-    span {
-      color: $secondary;
+    img{
+      margin-top: 7px;
+      width: 80px
     }
+    transition: all 0.2s ease-out;
     &:hover {
       opacity: 0.8;
     }
@@ -32,11 +28,10 @@ nav {
     position: static;
     .site-id {
       display: inline-block;
-      margin-top: 23px;
-      line-height: 1;
-      span {
-        display: block;
-        font-size: 24px;
+      img {
+        margin-top: 18px;
+        width: 115px;
+        height: auto;
       }
     }
     ul {
@@ -51,25 +46,25 @@ nav {
         a {
           display: block;
           padding:0 12px;
-          color: #fff;
+          color: $tertiary;
           transition: all 0.2s ease-out;
           line-height: 90px;
           &:hover {
-            color: $secondary;
+            color: $primary;
             background-color: rgba(250,250,250,0.05);
           }
         }
         &:last-of-type {
           margin-left: 8px;
           a {
-            color: $secondary;
-            border: 1px solid $secondary;
-            border-radius: 14px;
-            line-height: 28px;
+            color: #fff;
+            border-radius: 5px;
+            line-height: 36px;
             padding:0 20px;
             transition: background-color 0.2s ease-out;
+            background-color: $primary;
             &:hover {
-              background-color: $secondary;
+              background-color: lighten($primary, 5);
               color: #fff;
             }
           }
@@ -82,7 +77,7 @@ nav {
 @media (max-width:990px) {
   // BURGER VARIABLES
   $ecg-burger-size:50px;
-  $ecg-burger-color: #fff;
+  $ecg-burger-color: $tertiary;
   // MENU VARIABLES
   $ecg-menu-offset: 50px; // IMPORTANT | Make this equal the height of your fixed nav 
   $ecg-menu-bg: $primary;
@@ -260,19 +255,19 @@ nav {
 // ACTIVE CLASSES 
 
 body.products-and-services nav ul li:nth-of-type(1) a {
-  color: $secondary;
+  color: $primary;
 }
 body.projects nav ul li:nth-of-type(2) a {
-  color: $secondary;
+  color: $primary;
 }
 body.safety nav ul li:nth-of-type(3) a {
-  color: $secondary;
+  color: $primary;
 }
 
 body.contact nav ul li:last-of-type a {
   color: #fff;
   @media (min-width:991px) {
     color: #fff;
-    background-color: $secondary;
+    background-color: $primary;
   }
 }

@@ -1,7 +1,7 @@
 $light-blue: #00AAE2 !global;
 $blue: #0A70CF !global;
 $dark-blue: #022542 !global;
-$green: #7ED221 !global;
+$green: #ADBB44 !global;
 
 $primary: $light-blue !global;
 $secondary: $green !global;
@@ -237,7 +237,7 @@ img {
 		}
 	}
 	&.button-green {
-		color: darken($secondary, 25);
+		color: darken($secondary, 35);
 		background-color: $secondary;
 		&:hover {
 			background-color: lighten($secondary, 5);
