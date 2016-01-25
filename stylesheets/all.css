@@ -3808,21 +3808,33 @@ nav {
     display: none; } }
 /* line 257, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
 body.products-and-services nav ul li:nth-of-type(1) a {
-  color: #00AAE2; }
+  color: #022542; }
 
 /* line 260, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
 body.projects nav ul li:nth-of-type(2) a {
-  color: #00AAE2; }
+  color: #022542; }
 
 /* line 263, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
 body.safety nav ul li:nth-of-type(3) a {
-  color: #00AAE2; }
+  color: #022542; }
 
-/* line 267, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
+@media (min-width: 991px) {
+  /* line 268, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
+  body.products-and-services nav ul li:nth-of-type(1) a {
+    color: #00AAE2; }
+
+  /* line 271, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
+  body.projects nav ul li:nth-of-type(2) a {
+    color: #00AAE2; }
+
+  /* line 274, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
+  body.safety nav ul li:nth-of-type(3) a {
+    color: #00AAE2; } }
+/* line 279, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
 body.contact nav ul li:last-of-type a {
   color: #fff; }
   @media (min-width: 991px) {
-    /* line 267, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
+    /* line 279, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
     body.contact nav ul li:last-of-type a {
       color: #fff;
       background-color: #00AAE2; } }
@@ -3880,37 +3892,32 @@ footer {
     /* line 51, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
     footer .main span {
       margin: 45px 0 0 0;
-      color: rgba(250, 250, 250, 0.3);
+      color: rgba(250, 250, 250, 0.2);
       font-family: "Roboto",sans-serif;
-      font-size: 12px;
+      font-size: 10px;
       display: block; }
-
-/* line 63, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
-body.about footer .main ul li:nth-of-type(1) a {
-  font-weight: bold; }
+      /* line 57, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
+      footer .main span a, footer .main span a:hover, footer .main span a:active, footer .main span a:visited {
+        color: rgba(250, 250, 250, 0.3); }
 
 /* line 66, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
-body.services footer .main ul li:nth-of-type(2) a {
+body.products-and-services footer .main ul li:nth-of-type(1) a {
+  color: #ADBB44;
   font-weight: bold; }
 
-/* line 69, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
-body.sustainability footer .main ul li:nth-of-type(3) a {
+/* line 70, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
+body.safety footer .main ul li:nth-of-type(3) a {
+  color: #ADBB44;
   font-weight: bold; }
 
-/* line 72, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
-body.safety footer .main ul li:nth-of-type(4) a {
+/* line 74, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
+body.projects footer .main ul li:nth-of-type(2) a {
+  color: #ADBB44;
   font-weight: bold; }
 
-/* line 75, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
-body.projects footer .main ul li:nth-of-type(5) a {
-  font-weight: bold; }
-
-/* line 78, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
-body.careers footer .main ul li:nth-of-type(6) a {
-  font-weight: bold; }
-
-/* line 82, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
+/* line 79, /Users/chief/work/airco-automation/source/stylesheets/modules/_footer.scss */
 body.contact footer .main ul li:nth-of-type(7) a {
+  color: #ADBB44;
   font-weight: bold; }
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/modules/_ezt.scss */
@@ -3996,22 +4003,35 @@ body.contact footer .main ul li:nth-of-type(7) a {
   background: url("../images/splash-home.jpg") no-repeat center bottom fixed; }
 
 /* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+.l-splash img {
+  border-radius: 5px;
+  max-width: 320px;
+  display: block;
+  margin: 0 auto 35px auto; }
+  @media (min-width: 991px) {
+    /* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+    .l-splash img {
+      border-radius: 0;
+      max-width: 100%;
+      padding-right: 35px;
+      margin-bottom: 0; } }
+/* line 18, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
 .l-splash h2 {
   color: #00AAE2;
   margin: 0 0 15px 0; }
 
-/* line 12, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+/* line 24, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
 .l-body-content {
   padding: 45px 0; }
-  /* line 14, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+  /* line 26, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
   .l-body-content h4 {
     color: #00AAE2;
     margin: 0 0 15px 0; }
-  /* line 18, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+  /* line 30, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
   .l-body-content p {
     max-width: 720px;
     margin: 0 auto 15px auto; }
-    /* line 21, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+    /* line 33, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
     .l-body-content p:last-of-type {
       margin-bottom: 0; }
 
@@ -4048,12 +4068,13 @@ body.contact footer .main ul li:nth-of-type(7) a {
     color: #00AAE2; }
   /* line 14, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body h4 {
-    margin-bottom: 60px; }
+    margin-bottom: 70px; }
   /* line 17, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body img {
-    margin: 0 auto 20px auto;
-    max-width: 128px; }
-  /* line 21, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+    margin: 0 auto 30px auto;
+    max-width: 85px;
+    opacity: 0.4; }
+  /* line 22, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body h5 {
     margin: 0 0 45px 0;
     color: #333; }
@@ -4064,28 +4085,30 @@ body.contact footer .main ul li:nth-of-type(7) a {
 
 /* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
 .l-projects-body h2 {
-  color: #ADBB44; }
+  color: #00AAE2;
+  margin-bottom: 5px;
+  font-size: 24px; }
+/* line 11, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
+.l-projects-body h4 {
+  color: #ADBB44;
+  margin-top: 10px;
+  margin-bottom: 25px; }
+/* line 16, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
+.l-projects-body img {
+  margin: 0 auto 25px auto;
+  display: block; }
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
 .u-hero.safety {
   background: url("../images/splash-safety.jpg") no-repeat center center fixed; }
 
 /* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
-.l-safety-body p {
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto; }
-/* line 11, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
-.l-safety-body .button {
-  text-align: center;
-  width: 100%;
-  max-width: 260px;
-  margin: 25px auto 0 auto;
-  display: block; }
+.l-safety-body h5 {
+  margin-bottom: 35px; }
 
 /* line 14, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 body.main {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
   margin-top: 50px; }
   @media (min-width: 991px) {
     /* line 14, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
@@ -4119,31 +4142,31 @@ p {
 /* line 46, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 h1, h2, h3, h4, h5 {
   letter-spacing: 0.03em;
-  font-family: 'Montserrat', sans-serif; }
+  font-weight: bold;
+  font-family: 'Lato', sans-serif; }
 
-/* line 51, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 52, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 h4 {
   margin: 25px 0 10px 0; }
 
-/* line 55, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 56, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 img {
   max-width: 100%; }
 
-/* line 59, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 60, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-hero {
+  text-align: center;
   background-color: #ADBB44;
   color: #fff;
-  padding: 25px 0; }
-  /* line 63, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
-  .u-hero h1 {
-    font-size: 56px;
-    text-align: center;
-    margin: 0; }
-  @media (min-width: 991px) {
-    /* line 59, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
-    .u-hero {
-      padding: 45px 0; } }
-  /* line 71, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  padding: 45px 0;
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  position: relative; }
+  /* line 72, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-hero.hero-sustainability {
     padding: 100px 0;
     background: url("http://placehold.it/1200x600") no-repeat center center fixed;
@@ -4151,28 +4174,48 @@ img {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+  /* line 80, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  .u-hero h1 {
+    position: relative;
+    z-index: 3;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    font-size: 24px;
+    text-align: center; }
+  @media (min-width: 991px) {
+    /* line 60, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    .u-hero {
+      padding: 45px 0; } }
+  @media (min-width: 680px) {
+    /* line 60, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    .u-hero {
+      padding: 100px 0; }
+      /* line 94, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+      .u-hero h1 {
+        font-size: 55px; } }
 
-/* line 81, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 100, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-centered {
   display: block !important;
   max-width: 320px;
   margin: 0 auto;
   width: 100%; }
 
-/* line 88, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 107, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-cta {
   position: relative;
   background-color: #022542;
   padding: 15px 0;
   text-align: center; }
-  /* line 93, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 112, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-cta h2 {
     color: #fff; }
-  /* line 96, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 115, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-cta h3 {
     color: #fff;
     font-size: 32px; }
-  /* line 100, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 119, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-cta p {
     color: #fff;
     max-width: 640px;
@@ -4180,40 +4223,15 @@ img {
     max-width: 420px;
     margin: 0 auto 15px auto; }
   @media (min-width: 680px) {
-    /* line 88, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 107, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .u-cta {
       padding: 45px 0; } }
 
-/* line 112, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
-.u-hero {
-  text-align: center;
-  padding: 45px 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
-  position: relative; }
-  /* line 121, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
-  .u-hero h1 {
-    position: relative;
-    z-index: 3;
-    font-weight: 300;
-    font-size: 24px;
-    margin: 0; }
-  @media (min-width: 680px) {
-    /* line 112, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
-    .u-hero {
-      padding: 100px 0; }
-      /* line 130, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
-      .u-hero h1 {
-        font-size: 55px; } }
-
-/* line 136, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 131, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-text-center {
   text-align: center; }
 
-/* line 140, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 135, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-screen {
   position: absolute;
   top: 0;
@@ -4223,112 +4241,115 @@ img {
   display: block;
   background-color: #000;
   opacity: 0.4; }
-  /* line 149, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 144, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-screen.green {
     background-color: #ADBB44;
     opacity: 1; }
-  /* line 153, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 148, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-screen.dark-blue {
     background-color: #022542;
     opacity: 0.85; }
 
-/* line 159, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 154, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-blue-title {
   text-align: center;
   margin: 0 auto 15px auto;
   color: #00AAE2; }
 
-/* line 165, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 160, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-forground {
   position: relative;
   z-index: 2; }
 
-/* line 169, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 164, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-grey-bg {
   background-color: #f5f5f5; }
 
-/* line 173, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 168, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-quote-section {
   position: relative;
   overflow: hidden;
   padding: 15px 0;
   background-color: #00AAE2; }
   @media (min-width: 680px) {
-    /* line 173, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 168, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .u-quote-section {
       padding: 45px 0; } }
 
-/* line 183, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 178, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .u-quote {
   position: relative;
   font-size: 26px;
   color: #fff;
   line-height: 1.5;
-  text-align: center; }
-  /* line 189, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  text-align: center;
+  font-weight: 300;
+  padding: 0 32px; }
+  /* line 186, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-quote i {
     font-size: 28px;
     font-weight: normal;
     position: absolute;
-    top: 8px;
+    top: 9px;
     color: #022542; }
-    /* line 195, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 192, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .u-quote i:first-of-type {
-      right: -25px; }
-    /* line 198, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+      right: 0; }
+    /* line 195, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .u-quote i:last-of-type {
-      left: -25px; }
+      left: 0; }
 
-/* line 204, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 201, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .m-marketing {
   list-style-type: circle; }
 
-/* line 208, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 205, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 .button, input[type="submit"], button {
   display: inline-block;
   padding: 0 45px;
   line-height: 40px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
   border-radius: 5px;
   color: #00AAE2;
   margin: 10px auto;
   text-align: center;
   transition: background 0.2s ease-out; }
-  /* line 218, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 216, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .button:hover, input[type="submit"]:hover, button:hover {
     color: #fff;
     background: #00AAE2; }
-  /* line 222, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 220, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .button:focus, input[type="submit"]:focus, button:focus {
     color: #fff; }
-  /* line 225, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 223, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .button.button-blue, input[type="submit"].button-blue, button.button-blue {
     color: #fff;
     background-color: #022542; }
-    /* line 228, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 226, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .button.button-blue:hover, input[type="submit"].button-blue:hover, button.button-blue:hover {
       background-color: #03335b; }
-  /* line 232, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 230, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .button.button-white, input[type="submit"].button-white, button.button-white {
     color: #333;
     background-color: #fff; }
-    /* line 235, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 233, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .button.button-white:hover, input[type="submit"].button-white:hover, button.button-white:hover {
       background-color: #eee; }
-  /* line 239, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 237, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .button.button-green, input[type="submit"].button-green, button.button-green {
     color: #343814;
     background-color: #ADBB44; }
-    /* line 242, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 240, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     .button.button-green:hover, input[type="submit"].button-green:hover, button.button-green:hover {
       background-color: #b5c257; }
 
-/* line 248, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 246, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 form {
   padding: 40px 0;
   background: #f9f9f9; }
 
-/* line 253, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 251, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 input[type="submit"] {
   display: block;
   width: 100%;
@@ -4336,7 +4357,7 @@ input[type="submit"] {
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 262, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 260, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -4361,7 +4382,7 @@ textarea {
   transition: border-color 0.2s ease-out; }
 
 /* Removes awkward default styles on some inputs for iOS */
-/* line 289, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 287, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -4374,13 +4395,13 @@ textarea {
   -moz-appearance: none;
   appearance: none; }
 
-/* line 302, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 300, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 textarea {
   min-height: 120px;
   padding-top: 6px;
   padding-bottom: 6px; }
 
-/* line 308, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 306, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -4392,7 +4413,7 @@ textarea:focus {
   border: 1px solid #aaa;
   outline: 0; }
 
-/* line 320, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 318, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 input[type="email"].error,
 input[type="number"].error,
 input[type="search"].error,
@@ -4404,14 +4425,14 @@ input[type="password"].error,
   border: 1px solid #00AAE2;
   color: #00AAE2; }
 
-/* line 332, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 330, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 textarea {
   min-height: 120px;
   padding-top: 6px;
   padding-bottom: 6px;
   display: block; }
 
-/* line 339, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+/* line 337, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
 a.fancybox-block {
   position: relative;
   display: block;
@@ -4419,11 +4440,11 @@ a.fancybox-block {
   overflow: hidden;
   background-color: #eee;
   margin-bottom: 25px; }
-  /* line 346, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 344, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   a.fancybox-block img {
     transition: all 0.2s ease-out;
     width: 100%; }
-  /* line 350, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 348, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   a.fancybox-block > section {
     display: block;
     width: 80%;
@@ -4441,14 +4462,14 @@ a.fancybox-block {
     background-color: rgba(250, 250, 250, 0.8);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease-out; }
-    /* line 367, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 365, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     a.fancybox-block > section h5, a.fancybox-block > section p {
       width: 100%;
       color: #333;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
-    /* line 374, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 372, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     a.fancybox-block > section span {
       line-height: 28px;
       display: inline-block;
@@ -4456,23 +4477,23 @@ a.fancybox-block {
       border: 2px solid #00AAE2;
       border-radius: 14px;
       padding: 0 20px; }
-  /* line 384, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 382, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   a.fancybox-block:hover span {
     color: #fff;
     background-color: #00AAE2;
     border-color: #00AAE2; }
-  /* line 389, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 387, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   a.fancybox-block:hover > section {
     background-color: #fafafa; }
-  /* line 392, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 390, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   a.fancybox-block:hover img {
     opacity: 0.8; }
   @media (min-width: 991px) {
-    /* line 398, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+    /* line 396, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
     a.fancybox-block:not(.contact) > section {
       width: 40%;
       margin-left: -20%; } }
-  /* line 405, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  /* line 403, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   a.fancybox-block.contact > section {
     height: 125px;
     margin-top: -62px; }
