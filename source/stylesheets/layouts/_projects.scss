@@ -4,6 +4,17 @@
 
 .l-projects-body {
 	h2 {
+		color: $primary;
+		margin-bottom: 5px;
+		font-size: 24px;
+	}
+	h4 {
 		color: $secondary;
+		margin-top: 10px;
+		margin-bottom: 25px;
+	}
+	img {
+		margin: 0 auto 25px auto;
+		display: block;
 	}
 }

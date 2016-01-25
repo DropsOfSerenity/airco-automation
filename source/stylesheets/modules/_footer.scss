@@ -50,35 +50,33 @@ footer {
 		}
 		span {
 			margin: 45px 0 0 0;
-			color: rgba(250,250,250,0.3);
+			color: rgba(250,250,250,0.2);
 			font-family: "Roboto",sans-serif;
-			font-size: 12px;
+			font-size: 10px;
 			display: block;
+			a, a:hover, a:active, a:visited {
+				color: rgba(250,250,250,0.3);
+			}
 		}
 	}
 }
 
 // ACTIVE CLASSES 
 
-body.about footer .main ul li:nth-of-type(1) a {
+body.products-and-services footer .main ul li:nth-of-type(1) a {
+  color: $secondary;
   font-weight: bold;
 }
-body.services footer .main ul li:nth-of-type(2) a {
+body.safety footer .main ul li:nth-of-type(3) a {
+  color: $secondary;
   font-weight: bold;
 }
-body.sustainability footer .main ul li:nth-of-type(3) a {
-  font-weight: bold;
-}
-body.safety footer .main ul li:nth-of-type(4) a {
-  font-weight: bold;
-}
-body.projects footer .main ul li:nth-of-type(5) a {
-  font-weight: bold;
-}
-body.careers footer .main ul li:nth-of-type(6) a {
+body.projects footer .main ul li:nth-of-type(2) a {
+  color: $secondary;
   font-weight: bold;
 }
 
 body.contact footer .main ul li:nth-of-type(7) a {
+  color: $secondary;
   font-weight: bold;
 }

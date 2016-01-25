@@ -3,6 +3,18 @@
 }
 
 .l-splash {
+  img {
+    border-radius: 5px;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto 35px auto;
+    @media (min-width:991px) {
+      border-radius: 0;
+      max-width: 100%;
+      padding-right: 35px;
+      margin-bottom: 0;
+    }
+  }
   h2 {
     color: $primary;
     margin: 0 0 15px 0;
