@@ -69,13 +69,13 @@ img {
   background-size: cover;
   color: #fff;
   position: relative;
+  .container {
+  	position: static;
+  }
   &.hero-sustainability {
   	padding: 100px 0;
-  	background: url('http://placehold.it/1200x600') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  	background: url('http://placehold.it/1200x600');
+  	background-position: center center;  
   }
   h1 {
     position: relative;
