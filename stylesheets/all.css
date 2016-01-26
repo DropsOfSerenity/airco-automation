@@ -4054,55 +4054,58 @@ body.contact footer .main ul li:nth-of-type(7) a {
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
 .u-hero.services {
-  background: url("../images/splash-services.jpg") no-repeat center center fixed; }
+  background: url("../images/splash-services.jpg");
+  background-position: center center; }
 
-/* line 5, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+/* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
 .l-services-body {
   padding: 35px 0;
   text-align: center; }
-  /* line 8, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+  /* line 9, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body .col-xs-12 {
     margin-bottom: 25px; }
-  /* line 11, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+  /* line 12, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body h2 {
     color: #00AAE2; }
-  /* line 14, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+  /* line 15, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body h4 {
     margin-bottom: 70px; }
-  /* line 17, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+  /* line 18, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body img {
     margin: 0 auto 30px auto;
     max-width: 85px;
     opacity: 0.4; }
-  /* line 22, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
+  /* line 23, /Users/chief/work/airco-automation/source/stylesheets/layouts/_products-and-services.scss */
   .l-services-body h5 {
     margin: 0 0 45px 0;
     color: #333; }
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
 .u-hero.projects {
-  background: url("../images/splash-projects.jpg") no-repeat center center fixed; }
+  background: url("../images/splash-projects.jpg");
+  background-position: center center; }
 
-/* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
+/* line 7, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
 .l-projects-body h2 {
   color: #00AAE2;
   margin-bottom: 5px;
   font-size: 24px; }
-/* line 11, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
+/* line 12, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
 .l-projects-body h4 {
   color: #ADBB44;
   margin-top: 10px;
   margin-bottom: 25px; }
-/* line 16, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
+/* line 17, /Users/chief/work/airco-automation/source/stylesheets/layouts/_projects.scss */
 .l-projects-body img {
   margin: 0 auto 25px auto;
   display: block; }
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
 .u-hero.safety {
-  background: url("../images/splash-safety.jpg") no-repeat center center fixed; }
+  background: url("../images/splash-safety.jpg");
+  background-position: center center; }
 
-/* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
+/* line 7, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
 .l-safety-body h5 {
   margin-bottom: 35px; }
 
@@ -4167,13 +4170,13 @@ img {
   color: #fff;
   position: relative; }
   /* line 72, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
+  .u-hero .container {
+    position: static; }
+  /* line 75, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-hero.hero-sustainability {
     padding: 100px 0;
-    background: url("http://placehold.it/1200x600") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
+    background: url("http://placehold.it/1200x600");
+    background-position: center center; }
   /* line 80, /Users/chief/work/airco-automation/source/stylesheets/_app.scss */
   .u-hero h1 {
     position: relative;
