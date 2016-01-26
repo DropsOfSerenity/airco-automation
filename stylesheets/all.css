@@ -4000,38 +4000,39 @@ body.contact footer .main ul li:nth-of-type(7) a {
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
 .u-hero.home {
-  background: url("../images/splash-home.jpg") no-repeat center bottom fixed; }
+  background: url("../images/splash-home.jpg");
+  background-position: center center; }
 
-/* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+/* line 7, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
 .l-splash img {
   border-radius: 5px;
   max-width: 320px;
   display: block;
   margin: 0 auto 35px auto; }
   @media (min-width: 991px) {
-    /* line 6, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+    /* line 7, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
     .l-splash img {
       border-radius: 0;
       max-width: 100%;
       padding-right: 35px;
       margin-bottom: 0; } }
-/* line 18, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+/* line 19, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
 .l-splash h2 {
   color: #00AAE2;
   margin: 0 0 15px 0; }
 
-/* line 24, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+/* line 25, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
 .l-body-content {
   padding: 45px 0; }
-  /* line 26, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+  /* line 27, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
   .l-body-content h4 {
     color: #00AAE2;
     margin: 0 0 15px 0; }
-  /* line 30, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+  /* line 31, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
   .l-body-content p {
     max-width: 720px;
     margin: 0 auto 15px auto; }
-    /* line 33, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
+    /* line 34, /Users/chief/work/airco-automation/source/stylesheets/layouts/_home.scss */
     .l-body-content p:last-of-type {
       margin-bottom: 0; }
 
