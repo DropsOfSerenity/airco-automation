@@ -4113,6 +4113,12 @@ body.contact footer .main ul li:nth-of-type(7) a {
   background-position: center center; }
 
 /* line 7, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
+.l-safety-body img {
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+/* line 13, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
 .l-safety-body h5 {
   margin-bottom: 35px; }
 

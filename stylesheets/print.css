@@ -1,0 +1,21 @@
+@media print {
+	.u-hero h1 {
+		color: #333;
+		font-size: 18px;
+		border-bottom: 3px solid #ddd;
+		padding: 25px 0;
+	}
+	footer, .u-cta, .ecg-burger, .l-safety-body h2 {
+		display: none;
+	}
+	.l-safety-body {
+		margin: 0;
+		padding: 0;
+	}
+ 	.l-safety-body img {
+ 		max-width: 160px;
+ 	}
+ 	ul {
+ 		font-size: 16px;
+ 	}
+}
