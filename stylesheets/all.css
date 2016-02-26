@@ -3607,8 +3607,8 @@ nav {
       display: inline-block; }
       /* line 31, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
       nav .site-id img {
-        margin-top: 18px;
-        width: 115px;
+        margin-top: 14px;
+        width: 130px;
         height: auto; }
     /* line 37, /Users/chief/work/airco-automation/source/stylesheets/modules/_nav.scss */
     nav ul {
@@ -4109,7 +4109,7 @@ body.contact footer .main ul li:nth-of-type(7) a {
 
 /* line 1, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
 .u-hero.safety {
-  background-image: url("../images/splash-safety.jpg");
+  background-image: url("../images/splash-safety-2.jpg");
   background-position: center center; }
 
 /* line 7, /Users/chief/work/airco-automation/source/stylesheets/layouts/_safety.scss */
